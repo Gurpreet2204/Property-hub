@@ -1,6 +1,6 @@
 const test = (req, res)=>{
 
-    res.josn({
+    res.json({
         msg:"Api rout is working"
     })
  }
