@@ -19,17 +19,17 @@ export default function Header() {
 
                 <ul className='flex gap-4'>
                     <Link to='/'>
-                        <li className='hidden sm:inline text-black hover:underline'>
+                        <li className='hidden sm:inline text-gray-800  hover:underline'>
                             Home
                         </li>
                     </Link>
                     <Link to='about'>
-                        <li className='hidden sm:inline text-black hover:underline'>
+                        <li className='hidden sm:inline text-gray-800 hover:underline'>
                             Abuot
                         </li>
                     </Link>
                     <Link to='sign-in'>
-                        <li className=' text-black hover:underline'>
+                        <li className=' text-gray-800 hover:underline'>
                             Sign in
                         </li>
                     </Link>
